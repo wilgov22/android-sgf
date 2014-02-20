@@ -1,0 +1,49 @@
+<class-diagram version="1.0.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="com.sgf.api.services.GetAccountsService" 
+    project="SGFmobileApp" file="/SGFmobileApp/src/com/sgf/api/services/GetAccountsService.java" binary="false">    
+    <position height="282" width="182" x="385" y="116"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="com.sgf.api.services.PostMovementsService" 
+    project="SGFmobileApp" file="/SGFmobileApp/src/com/sgf/api/services/PostMovementsService.java" binary="false">    
+    <position height="282" width="182" x="786" y="117"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="com.sgf.api.services.GetMovementsService" 
+    project="SGFmobileApp" file="/SGFmobileApp/src/com/sgf/api/services/GetMovementsService.java" binary="false">    
+    <position height="282" width="182" x="585" y="116"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="com.sgf.api.services.DeleteMovementsService" 
+    project="SGFmobileApp" file="/SGFmobileApp/src/com/sgf/api/services/DeleteMovementsService.java" binary="false">    
+    <position height="282" width="182" x="983" y="114"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="com.sgf.api.services.PutMovementsService" 
+    project="SGFmobileApp" file="/SGFmobileApp/src/com/sgf/api/services/PutMovementsService.java" binary="false">    
+    <position height="282" width="182" x="1180" y="112"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

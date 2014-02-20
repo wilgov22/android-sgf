@@ -1,0 +1,70 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sgf.activities"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.sgf.custom.sgfApplication"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+
+        </activity>
+        <activity
+            android:name=".MovementInsertActivity"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        <activity
+            android:name=".ListMovementsActivity"
+            android:label="@string/title_activity_list_movements" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.ListActivity" />
+        </activity>
+        <activity android:name="MovementEditActivity" >
+        </activity>
+        <service android:name="com.sgf.api.services.GetAccountsService" >
+        </service>
+
+        <activity android:name="PreferencesActivity" >
+        </activity>
+
+        <service android:name="com.sgf.api.services.GetMovementsService" >
+        </service>
+        <service android:name="com.sgf.api.services.PostMovementsService" >
+        </service>
+
+        <activity android:name=".SgfEntryActivity"
+            android:label="@string/title_activity_main" > >
+            
+                        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.sgf.api.services.PutMovementsService" >
+        </service>
+
+        <receiver android:name="com.sgf.receivers.LaunchSynchServices" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.sgf.api.services.SynchService"></service>
+        <activity android:name="ListAccountSummaryActivity"></activity>
+    </application>
+
+</manifest>

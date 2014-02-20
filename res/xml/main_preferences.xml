@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="sgf_api"
+        android:title="SGF API" >
+        <EditTextPreference
+            android:dialogIcon="@drawable/accounts"
+            android:dialogMessage="Enter your SGF Account Username"
+            android:dialogTitle="Username"
+            android:key="sgfUser"
+            android:summary="SGF Account Username"
+            android:title="Username" />
+        <EditTextPreference
+            android:dialogIcon="@drawable/accounts"
+            android:dialogMessage="Enter your SGF Account Password"
+            android:dialogTitle="Password"
+            android:key="sgfPassword"
+            android:summary="SGF Account Password"
+            android:title="Password" />
+        <EditTextPreference
+            android:dialogMessage="Enter the URL for SGF API"
+            android:dialogTitle="SGP API Host"
+            android:key="sgf_api_host"
+            android:summary="URL for SGF API Host"
+            android:title="SGF_API Host" />
+
+        <CheckBoxPreference
+            android:enabled="true"
+            android:key="autosync"
+            android:selectable="true"
+            android:summary="Enable AutoSync with SGF WebAPP"
+            android:title="AutoSync" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
