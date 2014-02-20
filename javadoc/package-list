@@ -1,0 +1,8 @@
+com.sgf.activities
+com.sgf.api.operations
+com.sgf.api.services
+com.sgf.custom
+com.sgf.db
+com.sgf.entities
+com.sgf.http
+com.sgf.receivers
