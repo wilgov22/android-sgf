@@ -1,4 +1,3 @@
-
 ## SGF - Personal Finance Manager
 
 ###Description
@@ -11,6 +10,7 @@ It was a webapp developed in ASP.net MVC and provided a REST WEB API, as POC I s
 * Movements reports;
 * Synch with webApp;
 * Provides autosynch whenever data connection is available;
+* Multilanguage Support (Portuguese and English);
 
 ### Target Android versions
 * 2.1;
